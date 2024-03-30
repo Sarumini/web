@@ -1,0 +1,215 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: "PT Sans", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+#nav_content
+{
+    border: 1px solid black;
+    display: flex;
+    background-color: ;
+    background-color: rgb(51,51,51);
+    /* justify-content: center; */
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#article_next{
+    padding: 20px;
+    line-height: 1.5;
+}
+#left_content{
+    
+    display: flex;
+}
+.left_module{
+    /* background-color: black; */
+    color: white;
+    /* border: 1px solid black; */
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    height: 30px;
+}
+.left_module:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#home_content>article
+{
+    padding: 100px;
+    /* margin-top: 200px; */
+    font-size: 70px;
+    font-family: "PT Sans", sans-serif;
+    color: white;
+}
+#home_content>p{
+    font-size: x-large;
+    font-family: "PT Sans", sans-serif;
+    color: white;
+}
+
+#home_content{
+    background-image: url("../assests/showcase.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    width: auto;
+    background-position: contain;
+    height: 100vh;
+    text-align: center;
+}
+#next_page{
+    height: 80vh;
+    background-color:rgb(51,51,51);
+    color: white;
+    text-align: center;
+    /* line-height: 1.5; */
+}
+#next_page>a{
+    border: 1px solid black;
+    background-color: rgb(185,4,21);
+    color: white;
+    padding: 20px;
+    line-height: 1.2;
+}
+#next_page>article{
+    padding: 40px;
+    line-height: 1.5;
+}
+#photo{
+    background-color: rgb(51,51,51);
+    height: 140vh;
+    background-image: url("../assests/mockup1.png");
+}
+#nextpage2{
+    /* position: relative;
+    top: 0px; */
+    padding: 70px;
+    height: 50vh;
+    color: rgb(51,51,51);
+    background-color: rgb(244,244,244);
+    font-family:"PT Sans", sans-serif ;
+    font-size: larger;
+}
+#nextpage2>article,h2,a{
+    color: rgb(51,51,51);
+    text-align: center;
+    line-height: 1.8;
+}
+#a1{
+    border: 1px solid black;
+    text-align: center;
+    left: 50px;
+    padding: 20px 10px;
+    background-color: rgb(16,48,99);
+    color: white;
+}
+#insidediv{
+    padding: 40px;
+}
+#image2{
+    top: 40px;
+    color: white;
+    text-align: center;
+    background-image: url("../assests/section-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    height: 100vh;
+    width: 100%;
+    font-family: "PT Sans, sans-serif";
+    font-size: larger;
+}
+#image2 h1{
+    top: 200px;
+    padding-top: 200px;
+    line-height: 1.5;
+}
+#image2>p{
+    padding: 50px;
+    font-size: large;
+    /* margin-top: 200px; */
+    text-align: center;
+    line-height: 1.8;
+    color: white;
+}
+#section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#article1{
+    height: 500px;
+    /* background-image: url("../assests/cards.png");
+    background-repeat: no-repeat;
+    background-size: 50%; */
+    padding: 60px;
+    /* display: flex; */
+    width: 50%;
+    height: 500px;
+    
+}
+#article2{
+    width: 50%;
+    line-height: 1.5;
+    /* border: 2px solid black; */
+}
+#article2>h1,p{
+    color: rgb(51,51,51);
+}
+#list{
+    background-color: rgb(51,51,51);
+    height: 50vh;
+    color: white;
+}
+#unorder{
+     /* border: 1px solid black; */
+     margin-left: 100px;
+     line-height: 1.3;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 100px;
+     padding: 40px;
+}
+ul>hr{
+    color:rgb(193,202,204);
+}
+ul>li{
+    list-style-type: none;
+    color: rgb(193,202,204);
+}
+#footer1{
+    background-color: rgb(51,51,51);
+    color: white;
+    position: relative;
+    bottom: 0px;
+    padding: 20px;
+    text-align: center;
+}
+/* #maindiv{
+    border: 1px solid black;
+    height: 100vh;
+}
+#mycontent,#maindiv>h1,p{
+    color: white;
+}
+#myhead
+{
+   position: relative;
+}
+#bgimage{
+    border: 1px solid black;
+   height: 100vh;
+   background-image: url("../assests/section-bg.jpeg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   opacity: 1.0;
+
+}
+#mycontent{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+} */
